@@ -1,7 +1,7 @@
 # Space-Invaders
  Game Tutorial
 
- Alien Invasion game built off a tutorial from Python Crash Course
+ Alien Invasion game built off a tutorial from Python Crash Course 2nd Edition by Eric Matthes, made for educational purposes
 
  Adjustments Made:
  -selcted new png for space shit -resized and converted to bitmap outside program 
