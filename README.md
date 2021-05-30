@@ -5,7 +5,7 @@
 
  Adjustments Made:
  -selcted new png for space shit -resized and converted to bitmap outside program 
- # recolor game background, aliens, bullets, and ship
+ -recolor game background, aliens, bullets, and ship
 
 To Play: run alien_invasion.py in Terminal to quit game hit 'Q' key
 
