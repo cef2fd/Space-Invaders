@@ -10,7 +10,7 @@ class Settings:
 		# Screen settings
 		self.screen_width = 1100
 		self.screen_height = 650
-		self.bg_color = (230, 230, 230)
+		self.bg_color = (50, 50, 50)
 
 		#Bullet settings
 		self.bullet_speed = 1.5
@@ -20,7 +20,7 @@ class Settings:
 		self.bullets_allowed = 5
 
 		# Alien Settings
-		self.alien_speed = .9
-		self.fleet_drop_speed = 10
+		self.alien_speed = .75
+		self.fleet_drop_speed = 9
 		# fleet_direction of 1 represents right; -1 represents left
 		self.fleet_direction = 1

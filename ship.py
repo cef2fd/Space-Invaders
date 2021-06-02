@@ -10,7 +10,7 @@ class Ship:
 		self.screen_rect = ai_game.screen.get_rect()
 
 		# Load the ship image and get is rect
-		self.image = pygame.image.load('images/ship2.bmp')
+		self.image = pygame.image.load('images/ship3.bmp')
 		# Invert the image colors
 		self.rect = self.image.get_rect()
 
