@@ -101,7 +101,14 @@ class AlienInvasion:
 			sys.exit()
 		elif event.key == pygame.K_SPACE:
 			self._fire_bullet()
-
+		elif event.key == pygame.K_p:
+			self.settings.initialize_dynamic_settings()
+			self.stats.reset_stats()
+			self.stats.game_active = True
+			self.sb.prep_score()
+			self.sb.prep_level()
+			self.sb.prep_ships()
+			
 	def _check_keyup_events(self, event):
 		"""Respond to key releases."""
 		if event.key == pygame.K_RIGHT:

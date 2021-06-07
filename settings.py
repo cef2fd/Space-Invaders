@@ -5,18 +5,18 @@ class Settings:
 		"""Initialize the game's static settings"""
 		# Ship settings
 		self.ship_speed = 1
-		self.ship_limit = 3 
+		self.ship_limit = 1 
 
 		# Screen settings
 		self.screen_width = 1100
 		self.screen_height = 650
-		self.bg_color = (50, 50, 50)
+		self.bg_color = (0, 0, 0)
 
 		#Bullet settings
 		self.bullet_speed = 1.5
 		self.bullet_width = 3
 		self.bullet_height = 15
-		self.bullet_color = (15, 15, 15)
+		self.bullet_color = (225, 225, 225)
 		self.bullets_allowed = 5
 
 		# Alien Settings
